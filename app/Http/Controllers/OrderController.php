@@ -31,14 +31,14 @@ class OrderController extends Controller
         $orders = Order::orderBy('id','DESC')->get();
 
         //mySql
-        $orders_archives = Order::distinct('created_at')
-        ->select(DB::raw("Year(created_at) as year"), DB::raw("Month(created_at) as month"))
-        ->pluck('year','month')->toArray();
+        //$orders_archives = Order::distinct('created_at')
+        //->select(DB::raw("Year(created_at) as year"), DB::raw("Month(created_at) as month"))
+        //->pluck('year','month')->toArray();
 
          //PostgreSQL
-         //$orders_archives = Order::distinct('created_at')
-         //->select(DB::raw("date_part('year', created_at) as year"), DB::raw("date_part('month', created_at) as month"))
-         //->pluck('year','month')->toArray();
+         $orders_archives = Order::distinct('created_at')
+         ->select(DB::raw("date_part('year', created_at) as year"), DB::raw("date_part('month', created_at) as month"))
+         ->pluck('year','month')->toArray();
 
         
         $now = Carbon::now();
