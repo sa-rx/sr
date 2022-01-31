@@ -127,6 +127,7 @@
                 @endguest
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
+            
         </nav>
       <!-- .navbar -->
     </div>
@@ -137,8 +138,11 @@
                         </span>
                     </a>
                 </div>
+
   </header><!-- End Header -->
        
+    <br>
+    <br>
     <br>
     <br>
     <br>
