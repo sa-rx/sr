@@ -32,7 +32,7 @@ class MenuController extends Controller
      */
     public function index()
     {
-        $menus = Menu::get();
+        $menus = Menu::orderBy('id','DESC')->get();
         return view('menus.index',compact('menus'));
     }
 
@@ -40,7 +40,7 @@ class MenuController extends Controller
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
-     */
+     */ 
     public function create()
     {
         $categories = Category::get();
