@@ -969,7 +969,7 @@ section {
   position: relative;
   --------------------------------------------------------------*/
   background-attachment: fixed;
-
+  
  
 }
 .events::before {
@@ -984,7 +984,8 @@ section {
   color: #fff;
 }
 .events .container {
-  position: relative;
+  background-attachment: fixed;
+
 }
 @media (min-width: 1024px) {
   .events {
