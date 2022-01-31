@@ -32,7 +32,7 @@ class MenuController extends Controller
      */
     public function index()
     {
-        $menus = Menu::orderBy('id','DESC')->get();
+        $menus = Menu::orderBy('category_id','DESC')->get();
         return view('menus.index',compact('menus'));
     }
 
