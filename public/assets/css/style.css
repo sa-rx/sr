@@ -12,9 +12,10 @@ body {
   font-family: 'Cairo', sans-serif;
   /*--------------------------------------------------------------
   background: url("../img/bg.png") center center;
-  --------------------------------------------------------------*/
   background-color: #43636e;
-
+  --------------------------------------------------------------*/
+  
+  background: url("../img/bg.png") center center;
   background-size: cover;
   position: relative;
   background-attachment: fixed;

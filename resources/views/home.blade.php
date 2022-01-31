@@ -13,9 +13,9 @@
 <section id="about" class="about container section-bg3   rounded shadow-lg">
   <div class="container " data-aos="fade-up">
     <div class="row">
-      <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-        <div class="about-img">
-          <img src="assets/img/pnr.png" alt="">
+      <div class="col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+        <div class="about-img ">
+          <img src="assets/img/pnr1.png" alt="">
         </div>
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -41,7 +41,7 @@
 <br>
 
 <!-- ======= Events Section ======= -->
-<section id="events" class="events  section-bg1 shadow-lg">
+<section id="events" class="events  section-bg1 ">
   <div class="container" data-aos="fade-up">
     <div  class="events-slider swiper section-bg2 rounded container" data-aos="fade-up" data-aos-delay="100">
       <br>
@@ -140,7 +140,7 @@
           </a>
 
           <div class="menu-content">
-              <a href="{{route('menu.show',$menu)}}">{{$menu->name}}</a><span>{{$menu->price}}ريال</span>
+              <a class="rounded" href="{{route('menu.show',$menu)}}">{{$menu->name}}</a><span class="rounded">{{$menu->price}}ريال</span>
           </div>
           
           <div class="menu-ingredients">
