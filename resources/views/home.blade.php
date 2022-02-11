@@ -148,7 +148,7 @@
             @if($menu->available == 0)
               <p>غير متوفر</p>         
             @else
-            <a href="{{route('cart.add',$menu->id)}}" class="btn btn btn-outline-light"> اضف للطلباتي</a>
+            <a href="{{route('cart.add',$menu->id)}}" class="btn btn btn-outline-light"> اضف لطلباتي</a>
             @endif
           </div>
             <br>
