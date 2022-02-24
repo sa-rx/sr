@@ -64,7 +64,7 @@
                 <p class="fst-italic">
                   {!! nl2br( $offer->content )!!}
                 </p>
-                <a  target="_blank"  href="
+                <!-- <a  target="_blank"  href="
                   https://wa.me//966{{$about->number}}?text=الطلبات :
                   %20 
                   {{$offer->title}}
@@ -82,7 +82,7 @@
                   %20 
                   
                   %20 
-                  " class="btn btn btn-outline-info ">اطلب العرض </a>
+                  " class="btn btn btn-outline-info ">اطلب العرض </a>-->
               </div>
             </div>
           </div><!-- End testimonial item -->
