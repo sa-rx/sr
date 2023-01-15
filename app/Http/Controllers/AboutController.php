@@ -9,9 +9,9 @@ class AboutController extends Controller
 {
     function __construct()
     {
-        $this->middleware('permission:عن الكافيه|تعديل صفحة عن الكافيه', ['only' => ['index']]);
-        $this->middleware('permission:تعديل صفحة عن الكافيه', ['only' => ['create','store']]);
-        $this->middleware('permission:تعديل صفحة عن الكافيه', ['only' => ['edit','update']]);
+      //  $this->middleware('permission:عن الكافيه|تعديل صفحة عن الكافيه', ['only' => ['index']]);
+      //  $this->middleware('permission:تعديل صفحة عن الكافيه', ['only' => ['create','store']]);
+      //  $this->middleware('permission:تعديل صفحة عن الكافيه', ['only' => ['edit','update']]);
     }
 
 

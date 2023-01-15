@@ -10,10 +10,10 @@ class OfferController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:العروض|اضافة عرض', ['only' => ['index']]);
-        $this->middleware('permission:اضافة عرض|تعديل عرض', ['only' => ['create','store']]);
-        $this->middleware('permission:تعديل عرض', ['only' => ['edit','update']]);
-        $this->middleware('permission:حذف عرض', ['only' => ['destroy']]);
+       // $this->middleware('permission:العروض|اضافة عرض', ['only' => ['index']]);
+        //$this->middleware('permission:اضافة عرض|تعديل عرض', ['only' => ['create','store']]);
+        //$this->middleware('permission:تعديل عرض', ['only' => ['edit','update']]);
+       // $this->middleware('permission:حذف عرض', ['only' => ['destroy']]);
     }
 
     

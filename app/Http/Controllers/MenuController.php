@@ -18,10 +18,10 @@ class MenuController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:الاصناف|اضافة صنف', ['only' => ['index']]);
-        $this->middleware('permission:اضافة صنف|تعديل صنف', ['only' => ['create','store']]);
-        $this->middleware('permission:تعديل صنف', ['only' => ['edit','update']]);
-        $this->middleware('permission:حذف صنف', ['only' => ['destroy']]);
+      //  $this->middleware('permission:الاصناف|اضافة صنف', ['only' => ['index']]);
+    //    $this->middleware('permission:اضافة صنف|تعديل صنف', ['only' => ['create','store']]);
+      //  $this->middleware('permission:تعديل صنف', ['only' => ['edit','update']]);
+      //  $this->middleware('permission:حذف صنف', ['only' => ['destroy']]);
     }
 
     

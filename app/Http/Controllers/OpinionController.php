@@ -10,7 +10,7 @@ class OpinionController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:العروض', ['only' => ['destroy']]);
+        //$this->middleware('permission:العروض', ['only' => ['destroy']]);
     }
 
     

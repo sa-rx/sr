@@ -9,7 +9,7 @@ class ControlPanelController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:لوحة التحكم', ['only' => ['index']]);
+      //  $this->middleware('permission:لوحة التحكم', ['only' => ['index']]);
        
     }
 

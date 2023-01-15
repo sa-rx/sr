@@ -12,9 +12,9 @@ class ContactController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:تواصل معنا', ['only' => ['index']]);
-        $this->middleware('permission:تواصل معنا', ['only' => ['show']]);
-        $this->middleware('permission:تواصل معنا', ['only' => ['destroy']]);
+        //$this->middleware('permission:تواصل معنا', ['only' => ['index']]);
+        //$this->middleware('permission:تواصل معنا', ['only' => ['show']]);
+       // $this->middleware('permission:تواصل معنا', ['only' => ['destroy']]);
 
     }
 

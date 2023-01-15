@@ -10,10 +10,10 @@ class CategoryController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:الفئات|اضافة فئه', ['only' => ['index']]);
-        $this->middleware('permission:اضافة فئه|تعديل فئه', ['only' => ['create','store']]);
-        $this->middleware('permission:تعديل فئه', ['only' => ['edit','update']]);
-        $this->middleware('permission:حذف فئه', ['only' => ['destroy']]);
+        //$this->middleware('permission:الفئات|اضافة فئه', ['only' => ['index']]);
+       // $this->middleware('permission:اضافة فئه|تعديل فئه', ['only' => ['create','store']]);
+      //  $this->middleware('permission:تعديل فئه', ['only' => ['edit','update']]);
+        //$this->middleware('permission:حذف فئه', ['only' => ['destroy']]);
     }
 
     

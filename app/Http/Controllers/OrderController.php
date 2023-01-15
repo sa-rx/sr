@@ -14,11 +14,11 @@ class OrderController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:الطلبات', ['only' => ['index']]);
-        $this->middleware('permission:اظهار طلب', ['only' => ['show']]);
-        $this->middleware('permission:تعديل طلب', ['only' => ['edit','update']]);
-        $this->middleware('permission:حذف طلب', ['only' => ['destroy']]);
-        $this->middleware('permission:اظهار طلب', ['only' => ['archiveOrders']]);
+        //$this->middleware('permission:الطلبات', ['only' => ['index']]);
+       // $this->middleware('permission:اظهار طلب', ['only' => ['show']]);
+       // $this->middleware('permission:تعديل طلب', ['only' => ['edit','update']]);
+       // $this->middleware('permission:حذف طلب', ['only' => ['destroy']]);
+       // $this->middleware('permission:اظهار طلب', ['only' => ['archiveOrders']]);
 
     }
     /**
